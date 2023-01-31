@@ -21,6 +21,16 @@
     .navbar {background: rgba(18, 18, 18, 0.5)} /* Menubar will appear as dark with blur to give a frosted glass look / vision when you are underwater */
     .card, .expectation-card, .map-card {box-shadow: 0 0 10px #000; color:#f0f0f0; background-color: #222222;} /* Cards will appear slightly lighter than body background */
     .exp-card {box-shadow: 0 0 10px #000} /* Expectations card will have a different shadow colour depending on preferred colour scheme */
+    .googlemap {filter: invert(90%) saturate(0)}
+}
+
+a{  text-decoration: none;
+    color: inherit;}
+
+body{
+    margin-top:0;
+    margin-left:0;
+    margin-right:0;
 }
 
 .navbar{
@@ -81,13 +91,21 @@ nav .button{
 }
 
 .centertext{
-    width:98%;
     height:auto;
     display:block;
     margin:auto; 
-    margin-left: 1%;
-    margin-right: 1%;
+    padding: 1rem;
 }
+
+.centertext2{
+    height:auto;
+    padding: 1rem;
+}
+
+/* div.centertext2>h3{
+    padding-top: 16px; 
+    margin-block-end: 0px;} 
+} */
 
 h1{ margin-left: 0px;
     margin-top: 0px;
@@ -113,8 +131,6 @@ h3{ margin-left:0px;
     font-size: 16px;
     letter-spacing: 0px;
     line-height: 150%;
-    padding-top: 12px;
-    padding-bottom: 12px;
     margin-block-end: 0px;
     vertical-align: middle;}
 
@@ -125,13 +141,11 @@ svg {
 }
 
 .carousell{
+    left: 0;
+    right: 0;
+    padding: 0.5rem 1rem 0.5rem 1rem;
     margin: auto; /* Centre aligns viewport */
-    width: 90%%; /* Horizontal margins */
     overflow-x: scroll; /* Makes shop scrollable along the x-axis */
-    padding-left: 5%; /* Spacing */
-    padding-right: 5%; /* Spacing */
-    padding-top: 10px; /* Spacing */
-    padding-bottom: 10px; /* Spacing */
     white-space: nowrap;} /* Makes shop scrollable along the x-axis */
     .carousell::-webkit-scrollbar {height: 8px;} /* The thickness of the scrollbar */
     .carousell::-webkit-scrollbar-thumb {background: #F28B2E; border-radius:10000px;} /* Colour and roundedness of the scrollbar */
@@ -148,6 +162,7 @@ svg {
             border-top-left-radius: 10px; /* Roundedness */
             border-top-right-radius: 10px;} /* Roundedness */
         div.card>h3 {
+            margin-top: 10px;
             line-height: 30px;
             padding-left: 20px; /* Spacing */
             padding-right: 20px; /* Spacing */
@@ -174,6 +189,7 @@ svg {
             border-bottom-left-radius: 10px; /* Roundedness */
             border-top-right-radius: 0px;} /* Roundedness */
         #cardtype2>h3 {
+            margin-top: auto;
             line-height: 25px;
             float: left;
             max-width: calc( 100% - 120px);
@@ -186,11 +202,9 @@ svg {
 
 .messagecard{
     height: fit-content; /* Card height */
-    width: 100%; /* Card width */
+    width: calc(100% - 2rem);
     display: inline-block; /* Cards appear horizontally */
-    margin-right: 8px; /* Spacing */
-    margin-bottom: 8px; /* Spacing */
-    margin-top: 8px; /* Spacing */
+    margin: 0.5rem 1rem 0.5rem 1rem;
     border-radius: 10px; /* Roundedness */
     box-shadow: 0 0 10px #000;
     color:#000000;
@@ -198,7 +212,6 @@ svg {
 div.messagecard>h3 {
     text-align: center;
     padding: 16px; /* Spacing */
-    
     padding-left: 20px; /* Spacing */
     padding-right: 20px; /* Spacing */
     margin-block-end: 0px;} /* Spacing */
