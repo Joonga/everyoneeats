@@ -8,7 +8,6 @@
     .navbar {background: rgba(230, 230, 230, 0.7)} /* Menubar will appear as light with blur to give a frosted glass look / vision when you are underwater */
     .card, .expectation-card, .map-card {box-shadow: 0 0 10px #bbbbbb; color:#353535; background-color: #ffffff;} /* Cards will appear slightly darker than body background */
     .exp-card {box-shadow: 0 0 10px #bbbbbb} /* Expectations card will have a different shadow colour depending on preferred colour scheme */
-    .messagecard {box-shadow: 0 0 10px #bbbbbb}
 }
 
 /* System Dark Mode */
@@ -23,7 +22,6 @@
     .card, .expectation-card, .map-card {box-shadow: 0 0 10px #000; color:#f0f0f0; background-color: #222222;} /* Cards will appear slightly lighter than body background */
     .exp-card {box-shadow: 0 0 10px #000} /* Expectations card will have a different shadow colour depending on preferred colour scheme */
     .googlemap {filter: invert(90%) saturate(0)}
-    .messagecard {box-shadow: 0 0 10px #000}
 }
 
 a{  text-decoration: none;
@@ -210,7 +208,8 @@ svg {
     border-radius: 10px; /* Roundedness */
     box-shadow: 0 0 10px #000;
     color:#000000;
-    background-color: #F28B2E;}
+    background-color: #F28B2E;
+    box-shadow: 0 0 10px #F28B2E;}
 div.messagecard>h3 {
     text-align: center;
     padding: 16px; /* Spacing */
