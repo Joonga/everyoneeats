@@ -1,19 +1,7 @@
 {
     "name": "Everyone Eats",
-    "short_name": "Eats",
+    "short_name": "Everyone Eats",
     "display": "standalone",
-    "scope": "/",
-    "start_url": "/index.html?source=pwa",
-    "icons": [
-        {
-          "src": "ios/apple-touch-icon-60x60.png",
-          "type": "ios/png",
-          "sizes": "60x60"
-        },
-        {
-          "src": "ios/apple-touch-icon-72x72.png",
-          "type": "image/png",
-          "sizes": "72x72"
-        }
-    ]
+    "scope": "",
+    "start_url": "index.html"
 }
