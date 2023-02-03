@@ -227,3 +227,24 @@ div.messagecard>h2 {
     padding-left: 20px; /* Spacing */
     padding-right: 20px; /* Spacing */
     margin-block-end: 0px;} /* Spacing */
+
+.block{
+    color: white;
+    display: flex;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+}
+.block-title{
+    flex-direction:row; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+#asda{background-image: url(store/background-asda.jpg)}
+#burgerking{background-image: url(store/background-burgerking.jpg)}
+#subway{background-image: url(store/background-subway.jpg)}
+#tesco{background-image: url(store/background-tesco.jpg)}
