@@ -161,7 +161,7 @@ svg {
             width: 200px; /* Image width */
             border-top-left-radius: 10px; /* Roundedness */
             border-top-right-radius: 10px;} /* Roundedness */
-        #usdz {
+        div.card>a {
             height: 200px; /* Image height */
             width: 200px; /* Image width */
             border-top-left-radius: 10px; /* Roundedness */
