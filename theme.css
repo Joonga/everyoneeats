@@ -6,8 +6,6 @@
     --nutrition: rgb(228, 255, 109);
 }
 
-#root{-webkit-touch-callout: none;}
-
 @media (prefers-color-scheme: light) {
     body {
         background-color: #f0f0f0; /* Background colour slightly grey so it is not too bright */
