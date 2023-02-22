@@ -228,8 +228,4 @@ div.messagecard>h2 {
 #spicy:hover>h3 {color: #000;}
 #nutrition>h3{color:var(--nutrition)}
 #nutrition:hover {background-color: var(--nutrition);box-shadow: 0 0 10px var(--nutrition);}
-#chip:hover>h3 {color: #000;}
-
-
-
-
+#nutrition:hover>h3 {color: #000;}
